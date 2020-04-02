@@ -1,5 +1,6 @@
 npm-debug.log
 package-lock.json
+yarn.lock
 .bundle
 NERD_*
 tmp
@@ -34,5 +35,8 @@ bower_components/*
 
 testem.log
 
-#Vscode
+# Vscode
 .vscode/
+
+# path/K6
+/k6/libs
