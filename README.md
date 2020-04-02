@@ -30,10 +30,16 @@ $ yarn add postman-to-k6
 ```
 
 # How To Run From Command Line
+We will need to create k6-scritp.js.
 
 ```sh
 $ postman-to-k6 .\\Postman\\Collection\\K6-scritpt.postman_collection.json  --environment .\\Postman\\Environment\\K6-scritpEJEMPLO.postman_environment.json -o .\\k6\\k6-script.js
 ```
+Run the script.
+```sh
+$ postman-to-k6 .k6 run --out json=\\report\\my_test_result.json \\k6\\k6-script.js
+```
+
 # Note:
 Please run and review the code
 If you think something needs to be improved; you can indicate the file issue or submit PR.
