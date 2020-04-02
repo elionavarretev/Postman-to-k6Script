@@ -14,7 +14,7 @@ Code Editor:
 Now clone this project to your local machine:
 
 ```sh
-$ git clone https://github.com/elionavarretev/Postman-to-K6.git
+$ git clone https://github.com/elionavarretev/Postman-to-k6Script.git
 ```
 # Building the project
 This project uses a node.js. To run the tests and build an executable jar, open the terminal and run:

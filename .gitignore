@@ -39,4 +39,4 @@ testem.log
 .vscode/
 
 # path/K6
-/k6/libs
+#/k6/libs

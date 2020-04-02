@@ -3,7 +3,16 @@
 import "./libs/shim/core.js";
 import "./libs/shim/expect.js";
 
-export let options = { maxRedirects: 4 };
+import http from "k6/http";
+import { check, sleep } from "k6";
+import { Counter } from "k6/metrics";
+
+
+export let options = {  
+  maxRedirects: 4,
+  vus: 15,
+  duration: "15s",                 
+};
 
 const Request = Symbol.for("request");
 postman[Symbol.for("initial")]({
